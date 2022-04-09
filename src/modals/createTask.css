@@ -1,0 +1,10 @@
+form div input {
+    width: 100%;
+    margin: 5px 0 20px 0;
+    outline: none;
+}
+
+form div textarea {
+    width: 100%;
+    outline: none;
+}

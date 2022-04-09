@@ -1,0 +1,42 @@
+div.card {
+    width: 20%;
+    margin: 2vh 2.5vw;
+    border-top: 15px solid #4bb39a;
+    border-radius: 15px;
+    background-color: #f1b24b;
+    display: block;
+    float: left;
+    color: #fff;
+    height: 150px;
+    box-shadow: 0 0 0.6em #777;
+    transition: .2s;
+}
+
+div.card:hover {
+    border-top: 15px solid #36846b;
+    background-color: #d68438;
+    cursor: pointer;
+    box-shadow: 0 0 0.6em #333;
+}
+
+div.card p {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+div.card {
+    height: 120px;
+}
+    
+div.card p {
+    font-size: 10px;
+    padding: 5px 0 0 0;
+    }
+}
+
+  div.card i {
+    float: right;
+    margin: 0 10px;
+}

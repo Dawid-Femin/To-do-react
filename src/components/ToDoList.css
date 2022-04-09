@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+div.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4bb39a;
+    color: #fff;
+}
+
+div.header button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f1b24b;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    transition: .2s;
+}
+
+div.header button:hover {
+    background-color: #d68438;
+}
