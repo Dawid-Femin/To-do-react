@@ -21,8 +21,8 @@ const Card = ({taskObj, index, deleteTask, udpateListArray}) => {
         <div className="card">
             <p>{taskObj.Name}</p>
             <p>{taskObj.Description}</p>
-            <i class="fa-solid fa-trash" onClick={handleDelete}></i>
-            <i class="fa-solid fa-pen" onClick={() => setModal(true)}></i>
+            <i className="fa-solid fa-trash" onClick={handleDelete}></i>
+            <i className="fa-solid fa-pen" onClick={() => setModal(true)}></i>
             <EditTask modal={modal} toggle={toggle} updateTask={updateTask} taskObj={taskObj}/>
         </div>
      );
